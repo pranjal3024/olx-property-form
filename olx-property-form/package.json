@@ -2,16 +2,22 @@
   "name": "olx-property-form",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://Pranjal3024.github.io/olx-property-form",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test ",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   },
   "browserslist": {
     "production": [
